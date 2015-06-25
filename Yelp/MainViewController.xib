@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
-                <outlet property="tableView" destination="mcQ-ac-cX5" id="n8b-sm-kX9"/>
+                <outlet property="tableView" destination="w2o-kc-SwL" id="CVK-cj-h4s"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,17 +16,17 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="mcQ-ac-cX5">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="w2o-kc-SwL">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="mcQ-ac-cX5" secondAttribute="trailing" id="4Pe-fX-WRQ"/>
-                <constraint firstAttribute="bottom" secondItem="mcQ-ac-cX5" secondAttribute="bottom" id="Z17-fH-yRY"/>
-                <constraint firstItem="mcQ-ac-cX5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lXy-Ql-isO"/>
-                <constraint firstItem="mcQ-ac-cX5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ovS-oz-dtJ"/>
+                <constraint firstItem="w2o-kc-SwL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1nL-ev-0bD"/>
+                <constraint firstAttribute="trailing" secondItem="w2o-kc-SwL" secondAttribute="trailing" id="7Ra-ti-hfJ"/>
+                <constraint firstItem="w2o-kc-SwL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IBS-M1-RUL"/>
+                <constraint firstAttribute="bottom" secondItem="w2o-kc-SwL" secondAttribute="bottom" id="xE6-UF-w5V"/>
             </constraints>
         </view>
     </objects>
