@@ -31,7 +31,7 @@ Time spent: `<15h>`
 
 ### Walkthrough
 
-![Video Walkthrough](yelp.gif)
+![Video Walkthrough](week2_homework.gif)
 
 
 
